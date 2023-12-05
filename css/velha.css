@@ -1,0 +1,43 @@
+.tela-jogo{
+    border-radius: 0 0 20px 20px;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.area-jogo{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 5px;
+    width: 610px;
+    margin: 0 auto;
+}
+.area-jogo div{
+    height: 200px;
+    background-color: white;
+    font-size: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vitoria{
+    background-color: blue!important;
+    color: white
+}
+#alert{
+    position: absolute;
+    top: 250px;
+    left: 30%;
+    width: 40%;
+}
+#placar{
+    margin: 0 auto;
+    font-size: 18pt;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    width: 40%;
+    font-family: consolas;   
+}
